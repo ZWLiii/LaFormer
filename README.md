@@ -1,4 +1,4 @@
-## Version 2.0 (stable)
+## Version 1.0 (stable)
 
 [Welcome to my homepage!](https://github.com/ZWLiii/LaFormer)
 
@@ -10,14 +10,6 @@ which mainly focuses on developing advanced Vision Transformers for agricultural
 
 ## Major Features
 
-- Unified Benchmark
-
-  we provide a unified training script for various segmentation methods.
-  
-- Simple and Effective
-
-  Thanks to **pytorch lightning** and **timm** , the code is easy for further development.
-  
 - Supported Remote Sensing Datasets
 
   - [LoveDA](https://codalab.lisn.upsaclay.fr/competitions/421)
@@ -33,7 +25,7 @@ Prepare the following folders to organize this repo:
 ```none
 LaFormer (code)
 ├── pretrain_weights (pretrained weights of backbones, such as vit, swin, etc)
-├── model_weights (save the model weights trained on ISPRS vaihingen, LoveDA, etc)
+├── model_weights (save the model weights trained on LoveDA, FGFD, etc)
 ├── fig_results (save the masks predicted by models)
 ├── lightning_logs (CSV format training logs)
 ├── data
@@ -62,7 +54,7 @@ Open the folder **airs** using **Linux Terminal** and create python environment:
 conda create -n airs python=3.8
 conda activate airs
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -r GeoSeg/requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Pretrained Weights of Backbones
@@ -135,11 +127,11 @@ If you find this project useful in your research, please consider citing：
 
 ## Acknowledgement
 
-We wish **GeoSeg** could serve the growing research of remote sensing by providing a unified benchmark 
-and inspiring researchers to develop their own segmentation networks. Many thanks the following projects's contributions to **GeoSeg**.
+Many thanks the following projects's contributions to **LaFormer**.
 - [pytorch lightning](https://www.pytorchlightning.ai/)
 - [timm](https://github.com/rwightman/pytorch-image-models)
 - [pytorch-toolbelt](https://github.com/BloodAxe/pytorch-toolbelt)
 - [ttach](https://github.com/qubvel/ttach)
 - [catalyst](https://github.com/catalyst-team/catalyst)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+- [GeoSeg](https://github.com/wanglibo1995/GeoSeg)
