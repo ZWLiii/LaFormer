@@ -103,10 +103,7 @@ python train_supervision.py -c config/loveda/lunetformerloss.py
 "--rgb" denotes whether to output masks in RGB format
 
 ## Test our trained model result
-You can directly test our model by our provided S2ENet weights. Download in [Kuake Disk](我用夸克网盘给你分享了「fgfd」，点击链接或复制整段内容，打开「夸克APP」即可获取。
-/~51e939w39y~:/
-链接：https://pan.quark.cn/s/9b81a29ab531?pwd=VM1Y
-提取码：VM1Y)
+You can directly test our model by our provided S2ENet weights. Download in [Kuake Disk](https://pan.quark.cn/s/9b81a29ab531?pwd=VM1Y)pwd[VM1Y]
 
 **LoveDA**
 ```
@@ -141,4 +138,5 @@ Many thanks the following projects's contributions to **LaFormer**.
 - [catalyst](https://github.com/catalyst-team/catalyst)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 - [GeoSeg](https://github.com/wanglibo1995/GeoSeg)
+
 
