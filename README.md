@@ -102,22 +102,18 @@ python train_supervision.py -c config/loveda/lunetformerloss.py
 
 "--rgb" denotes whether to output masks in RGB format
 
-## Test our trained model result
-You can directly test our model by our provided LaFormer weights. Download in [Kuake Disk](https://pan.quark.cn/s/9b81a29ab531?pwd=VM1Y),pwd:VM1Y
-
 **LoveDA**
 ```
 python loveda_test.py -c config/loveda/lunetformerloss.py -o fig_results/loveda/lunetformerloss --rgb -t 'd4' --val
 
 ```
+You can directly test our model on LoveDA by our provided LaFormer weights. Download in [Kuake Disk](https://pan.quark.cn/s/97c2e3e0b0d2?pwd=MpGn),pwd:MpGn
 
 **FGFD** 
 ```
 python fgfd_test.py -c config/fgfd/lunetformerloss.py -o results/fgfd/lunetformerloss --rgb -t 'd4' --val
-
 ```
-# Test our trained model result
-You can directly test our model by our provided LaFormer weights. Download in [Kuake Disk](https://pan.quark.cn/s/9b81a29ab531?pwd=VM1Y),pwd:VM1Y
+You can directly test our model on FGFD by our provided LaFormer weights. Download in [Kuake Disk](https://pan.quark.cn/s/9b81a29ab531?pwd=VM1Y),pwd:VM1Y
 
 ## License 
 -------
@@ -141,6 +137,7 @@ Many thanks the following projects's contributions to **LaFormer**.
 - [catalyst](https://github.com/catalyst-team/catalyst)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 - [GeoSeg](https://github.com/wanglibo1995/GeoSeg)
+
 
 
 
