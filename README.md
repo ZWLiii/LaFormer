@@ -1,4 +1,4 @@
-## Version 1.0 (stable)
+## LaFormer: a Laplacian edge-guided transformer for farmland segmentation in remote sensing images
 
 [Welcome to my homepage!](https://github.com/ZWLiii/LaFormer)
 
@@ -137,6 +137,7 @@ Many thanks the following projects's contributions to **LaFormer**.
 - [catalyst](https://github.com/catalyst-team/catalyst)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 - [GeoSeg](https://github.com/wanglibo1995/GeoSeg)
+
 
 
 
