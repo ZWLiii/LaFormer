@@ -125,6 +125,19 @@ If you find this project useful in your research, please consider citing：
 
 - [LaFormer: a Laplacian edge-guided transformer for farmland segmentation in remote sensing images](https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-19/issue-4/044515/LaFormer--a-Laplacian-edge-guided-transformer-for-farmland-segmentation/10.1117/1.JRS.19.044515.short)
 
+```
+@article{zhang2025laformer,
+  title={LaFormer: a Laplacian edge-guided transformer for farmland segmentation in remote sensing images},
+  author={Zhang, Wenli and Rao, Lei and Fan, Guangyu and Chen, Niansheng and Cheng, Songlin and Song, Xiaoyong and Yang, Dingyu},
+  journal={Journal of Applied Remote Sensing},
+  volume={19},
+  number={4},
+  pages={044515--044515},
+  year={2025},
+  publisher={Society of Photo-Optical Instrumentation Engineers}
+}
+```
+
 
 
 ## Acknowledgement
@@ -137,6 +150,7 @@ Many thanks the following projects's contributions to **LaFormer**.
 - [catalyst](https://github.com/catalyst-team/catalyst)
 - [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
 - [GeoSeg](https://github.com/wanglibo1995/GeoSeg)
+
 
 
 
